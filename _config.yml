@@ -1,0 +1,6 @@
+theme: jekyll-theme-Time machine
+nav:
+- name: Home
+  link: /
+- name: About
+  link: /about.html
