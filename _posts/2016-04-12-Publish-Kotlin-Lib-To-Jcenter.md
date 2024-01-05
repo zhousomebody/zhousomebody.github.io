@@ -3,7 +3,7 @@ layout: post_layout
 title: 发布 Kotlin 库到 Maven/JCenter仓库
 time: 2016年04月12日 星期日
 location: 上海
-pulished: true
+pulished: false
 excerpt_separator: "```"
 ---
 >
