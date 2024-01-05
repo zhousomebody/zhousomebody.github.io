@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
-favicon: /assets/img/avatar.JPG
+title: zhousomebody
+description: zhousomebody
+favicon: /assets/img/avatar.jfif
 baseurl:
-url: https://liungkejin.github.io
+url: https://zhousomebody.github.io
 rss_url:
 
 # Build settings
