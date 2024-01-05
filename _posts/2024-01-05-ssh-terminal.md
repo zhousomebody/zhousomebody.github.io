@@ -6,4 +6,9 @@ location: beijing
 pulished: true
 excerpt_separator: "不过"
 ---
-<img src="/assets/img/ssh/setting.png" width="200px" />
+<img src="/assets/img/ssh/setting.png" width="800px" />
+->设置
+->系统
+
+->
+->
