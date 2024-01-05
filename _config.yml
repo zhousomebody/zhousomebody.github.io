@@ -1,9 +1,9 @@
 # Site settings
-title: zhousomebody
-description: zhousomebody
-favicon: /assets/img/avatar.jfif
+title: Liang Ke Jin
+description: Liang Ke Jin
+favicon: /assets/img/avatar.JPG
 baseurl:
-url: https://zhousomebody.github.io
+url: https://liungkejin.github.io
 rss_url:
 
 # Build settings
@@ -11,7 +11,7 @@ rss_url:
 highlight: true
 #highlighter: rouge
 
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 markdown: kramdown
 kramdown:
