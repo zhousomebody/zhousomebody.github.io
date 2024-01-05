@@ -20,3 +20,11 @@ excerpt_separator: "不过"
 ->搜索openssh服务器和客户端
 
 ->下载
+
+->同时按住windows + r，运行wt
+
+->在power shell界面下，直接使用：
+
+->```ssh user@ip  例如：ssh kerm@52.184.**.**```
+
+需要输入密码
