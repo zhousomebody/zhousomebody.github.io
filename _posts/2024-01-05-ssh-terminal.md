@@ -1,8 +1,9 @@
 ---
 layout: post_layout
-title: 自定义 NavigationView 时StatusBarColor的小问题
-time: 2016年04月10日 星期日
-location: 上海
+title: ssh terminal
+time: 2024年01月05日 星期日
+location: beijing
 pulished: true
 excerpt_separator: "不过"
 ---
+<str=assets/img/ssh/setting.png>
