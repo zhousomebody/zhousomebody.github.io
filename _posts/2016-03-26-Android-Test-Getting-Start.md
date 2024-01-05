@@ -3,7 +3,7 @@ layout: post_layout
 title: Android Test 学习基础
 time: 2016年03月26日 星期六
 location: 上海
-pulished: true
+pulished: false
 excerpt_separator: "##"
 ---
 
