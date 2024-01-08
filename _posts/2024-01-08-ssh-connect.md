@@ -9,14 +9,14 @@ excerpt_separator: "##"
 ### 端口映射
 命令：ssh 用户名@主机ip -p 映射的端口号
 
-例子：比如要远程到主机22.22.22.22的12345端口，但是12345端口被映射到了54321端口，所以要访问12345端口的命令为
-ssh root@22.22.22.22 -p 54321
+例子：比如要远程到主机22.22.22.22的12345端口，但是12345端口被映射到了54321端口，所以要访问12345端口的命令为<br>
+```ssh root@22.22.22.22 -p 54321```
 
-'''sudo docker ps -a'''
+```sudo docker ps -a```
 
 在 Docker 中以管理员权限列出所有容器的命令。sudo 表示以管理员身份运行命令，docker ps 用于显示正在运行的容器，而 -a 参数则显示所有的容器，包括正在运行和已经停止的容器。
 
-sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p <ssh_port>:22 --security-opt seccomp=unconfined -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name> continuumio/miniconda3 /bin/bash
+```sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p <ssh_port>:22 --security-opt seccomp=unconfined -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name> continuumio/miniconda3 /bin/bash```
 
 这行代码是在 Docker 中以管理员权限运行一个镜像，并设置一些参数和选项。
 
