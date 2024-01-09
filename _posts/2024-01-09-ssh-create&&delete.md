@@ -8,3 +8,11 @@ excerpt_separator: "##"
 ---
 
 ### 远程服务器端口
+
+```ssh user@124.***.***.*** -p 29```
+输入密码
+
+```sudo docker ps -a```
+
+
+
