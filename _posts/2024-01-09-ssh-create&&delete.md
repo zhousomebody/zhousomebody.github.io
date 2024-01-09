@@ -6,3 +6,4 @@ location: beijing
 pulished: true
 excerpt_separator: "##"
 ---
+连接服务器
