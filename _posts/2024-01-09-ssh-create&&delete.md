@@ -41,7 +41,7 @@ excerpt_separator: "##"
 ``` vi /etc/ssh/sshd_config```
 
 进去之后，点击`i`在当前光标位置可以进行选择，然后修改，修改之后，需要双击或者单机esc键，进入命令行模式，输入```:wq```,
-然后回车（enter）便可以退出保存。将里面的PermitRootLogin和PasswordAuthentication那行修改为==```PermitRootLogin yes```==
+然后回车（enter）便可以退出保存。将里面的PermitRootLogin和PasswordAuthentication那行修改为==PermitRootLogin yes==
 和==```PasswordAuthentication yes```==
 
 ```service ssh restart```
