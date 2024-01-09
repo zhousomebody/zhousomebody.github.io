@@ -60,7 +60,7 @@ excerpt_separator: "##"
 
 使用这个命令可以让用户进入正在运行的 Docker 容器内部，以交互式方式来执行命令并执行其他操作。
 
-'whoami'
+`whoami`
 
 - 显示用户名
 
@@ -97,7 +97,7 @@ service ssh restart
 
 · 移除容器
 
-'logout'
+`logout`
 
 · 退出linux系统
 
