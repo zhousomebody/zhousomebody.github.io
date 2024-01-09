@@ -22,7 +22,7 @@ excerpt_separator: "##"
 
 具体解释如下：
 
-- `sudo` 表示以管理员身份运行命令。
+> `sudo` 表示以管理员身份运行命令。
 - `docker run` 是运行 Docker 容器的命令。
 - `--shm-size 1g` 设置共享内存的大小为 1GB。
 - `--runtime=nvidia` 指定 Docker 使用 Nvidia 运行时环境。
