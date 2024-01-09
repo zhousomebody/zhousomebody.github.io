@@ -97,7 +97,9 @@ service ssh restart
 
 · 移除容器
 
+'logout'
 
+· 退出linux系统
 
 
 
