@@ -60,6 +60,10 @@ excerpt_separator: "##"
 
 使用这个命令可以让用户进入正在运行的 Docker 容器内部，以交互式方式来执行命令并执行其他操作。
 
+'whoami'
+
+- 显示用户名
+
 ```apt-get update```
 
 ```apt-get install vim openssh-server nano```
@@ -76,7 +80,7 @@ excerpt_separator: "##"
 
 因此，这行代码的作用是在容器内使用apt-get更新软件包列表，并安装vim、openssh-server和nano软件包。
 
-## 修改默认用户密码，初始密码可以和<name>一致
+## 修改默认用户密码，初始密码可以和```<name>```一致
 passwd
 vi /etc/ssh/sshd_config
 ***
@@ -84,6 +88,11 @@ PermitRootLogin yes
 PasswordAuthentication yes
 ***
 service ssh restart
+## delete
+````sudo docker stop zhouhuijie````
+
+````sudo docker rm zhouhuijie````
+
 
 
 
