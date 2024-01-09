@@ -91,7 +91,11 @@ service ssh restart
 ## delete
 ````sudo docker stop zhouhuijie````
 
+· 关闭容器
+
 ````sudo docker rm zhouhuijie````
+
+· 移除容器
 
 
 
