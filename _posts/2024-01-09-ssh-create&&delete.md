@@ -15,7 +15,8 @@ excerpt_separator: "##"
 ```sudo docker ps -a```
 查看所有容器
 
-```sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p 7905:22 --security-opt seccomp=unconfined -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/zz:/data -v /mnt/sda/data/public:/public --name zz continuumio/miniconda3 /bin/bash```
+```sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p 7905:22 --security-opt seccomp=unconfined -e 
+NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/zz:/data -v /mnt/sda/data/public:/public --name zz continuumio/miniconda3 /bin/bash```
 
 设置容器为zz，并将宿主机的/mnt/sda/data/zz挂载到容器的data上，容器的7905映射到宿主机的22端口
 
