@@ -1,6 +1,6 @@
 ---
 layout: post_layout
-tltle: ssh-create&&delete
+title: ssh-create&&delete
 time: 2024年01月09日 星期二
 location: beijing
 pulished: true
