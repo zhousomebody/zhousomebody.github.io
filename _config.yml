@@ -13,7 +13,8 @@ highlight: true
 
 timezone: Asia/Shanghai
 
-markdown: kramdown
+# markdown: kramdown
+markdown: none
 kramdown:
   auto_ids: true
   footnote_nr: 1
