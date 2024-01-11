@@ -14,7 +14,7 @@ highlight: true
 timezone: Asia/Shanghai
 
 markdown: kramdown
-plain:
+kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
