@@ -8,13 +8,13 @@ rss_url:
 
 # Build settings
 
-highlight: true
+highlight: none
 #highlighter: rouge
 
 timezone: Asia/Shanghai
 
 markdown: kramdown
-kramdown: plain
+kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
