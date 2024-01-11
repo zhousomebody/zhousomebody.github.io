@@ -6,7 +6,6 @@ location: beijing
 pulished: true
 excerpt_separator: "##"
 ---
-
 ### 远程服务器端口
 
 ```ssh user@124.***.***.*** -p 29```
@@ -15,8 +14,9 @@ excerpt_separator: "##"
 ```sudo docker ps -a```
 查看所有容器
 
-```sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p 7905:22 --security-opt seccomp=unconfined -e 
-NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/zz:/data -v /mnt/sda/data/public:/public --name zz continuumio/miniconda3 /bin/bash```
+
+```sudo docker run --shm-size 1g --runtime=nvidia --gpus all -itd --privileged --gpus all -p 7905:22 --security-opt seccomp=unconfined -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/zz:/data -v /mnt/sda/data/public:/public --name zz continuumio/miniconda3 /bin/bash```
+
 
 设置容器为zz，并将宿主机的/mnt/sda/data/zz挂载到容器的data上，容器的7905映射到宿主机的22端口
 
@@ -59,8 +59,8 @@ logout 退出，
 远程，然后输入设置的passwd
 
 上一行代码可能会报错，需要去自己的.ssh文件夹，将host删除。
-
 ### delete
+
 ```ssh user@124.***.***.*** -p 29```
 输入密码
 
