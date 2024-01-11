@@ -13,7 +13,6 @@ highlight: true
 
 timezone: Asia/Shanghai
 
-# markdown: kramdown
 markdown: plain
 kramdown:
   auto_ids: true
