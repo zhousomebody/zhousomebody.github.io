@@ -106,9 +106,12 @@ sudo vi /etc/ssh/sshd_config
 进去修改vim文本
 点击`i`进入编辑
 将以下两个
+
 `# PermitRootLogin *******`
 `# PasswordAuthentication yes`
+
 修改为
+
 ***
 PermitRootLogin yes
 PasswordAuthentication yes
