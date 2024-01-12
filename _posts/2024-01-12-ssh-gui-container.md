@@ -101,6 +101,7 @@ PasswordAuthentication yes
 ```sudo service ssh restart```
 
 `exit`
+
 `logout`
 ### text
 
@@ -109,6 +110,7 @@ PasswordAuthentication yes
 便可以访问
 To connect GUI using web browser, type in
 *username: kasm_user passwd: <password>*
+<img str="/assets/img/ssh/ssh-GUI-1.png" width="200px">
 
 
 
