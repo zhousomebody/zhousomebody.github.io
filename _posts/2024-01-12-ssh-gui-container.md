@@ -12,7 +12,9 @@ excerpt_separator: "##"
 - ssh ps@124.***.***.*** -p 22
   ```
 - 输入密码
-```sudo docker ps -a```
+```
+sudo docker ps -a
+```
 若是数量多的话，删除，避免资源不够，访问不了要建立的网络地址进不去
 ### 创建gui容器
 在这之前需要预编译，也就是提前写好dockerfile文件<br/>
@@ -39,8 +41,10 @@ $ git commit -m "Add Dockerfile and precompiled files"  # 提交更改
 在此，我们使用 push 命令将本地 Git 仓库的内容推送到远程服务器上：
 
 ```
-$ git remote add origin ssh://username@your_server_ip:/path/to/remote/repository  # 添加远程仓库地址
-$ git push -u origin master  # 推送本地仓库的内容到远程服务器
+$ git remote add origin ssh://username@your_server_ip:/path/to/remote/repository
+  # 添加远程仓库地址
+$ git push -u origin master
+  # 推送本地仓库的内容到远程服务器
 ```
 
 这将把本地 Git 仓库的内容推送到远程 Git 仓库，然后你就可以使用 Docker 提供的构建命令将 Dockerfile 构建成一个镜像，如：
@@ -62,7 +66,9 @@ $ docker push my_image
 实际操作可能和具体操作不一致
 由于本人的问题服务器具有dockerfile文件，因此直接开始create
 
-```sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p <web_port>:6901 -p <ssh_port>:22 --security-opt seccomp=unconfined -e VNC_PW=<password> -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name>  workspace_deluxe:1_13_0```
+```
+sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p <web_port>:6901 -p <ssh_port>:22 --security-opt seccomp=unconfined -e VNC_PW=<password> -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name>  workspace_deluxe:1_13_0
+```
 
 这是一个Docker命令，用于创建并启动一个新的Docker容器。具体含义如下：
 
@@ -81,14 +87,22 @@ $ docker push my_image
 `<web_port>`:如10345
 `<ssh_port>`:如7903
 ##### 进入容器安装ssh
-```sudo docker exec -it <name> /bin/bash```
-```sudo apt-get update```
-```sudo apt-get install vim openssh-server nano```
+```
+sudo docker exec -it <name> /bin/bash
+```
+```
+sudo apt-get update
+```
+```
+sudo apt-get install vim openssh-server nano
+```
 ##### 修改默认用户密码，初始密码可以和<name>一致
-
+```
 passwd
+```
+```
 sudo vi /etc/ssh/sshd_config
-
+```
 进去修改vim文本
 点击`i`进入编辑
 将以下两个
@@ -100,11 +114,17 @@ PermitRootLogin yes
 PasswordAuthentication yes
 ***
 
-```sudo service ssh restart```
+```
+sudo service ssh restart
+```
 
-`exit`
+```
+exit
+```
 
-`logout`
+```
+logout
+```
 ### text
 
 将ip:<web_port>输入chrome浏览器中
