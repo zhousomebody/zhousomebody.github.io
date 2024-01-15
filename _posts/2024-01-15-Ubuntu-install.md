@@ -14,7 +14,12 @@ excerpt_separator: "##"
   - [官网](https://www.diskgenius.cn/)
 - Ubuntu
   - [官网](https://ubuntu.com/)
-    - 
+    - 选择 Ubuntu 20.04.6 LTS<img src="/assets/img/Ubuntu/1.png">
+    <img src="/assets/img/Ubuntu/2.png">
 ##### Diskgenius操作
+- 插上硬盘、打开diskgenius.exe
+- 找到硬盘SanDisk
+- GBT
+- 删除所有分区->保存更改
 
 
