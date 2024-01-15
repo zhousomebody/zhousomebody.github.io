@@ -11,4 +11,5 @@ excerpt_separator: "##"
 - Vmware
   - 关注微信公众号软件管家
 - Diskgenius
+  - [官网](https://www.diskgenius.cn/)
 
