@@ -19,7 +19,10 @@ excerpt_separator: "##"
 ##### Diskgenius操作
 - 插上硬盘、打开diskgenius.exe
 - 找到硬盘SanDisk
-- GBT
+- MBR
+  - 选择磁盘->转化分区表类型为GUID(格式)p
+- GBT <img src="/assets/img/Ubuntu/3.png">
+  - 不用改变
 - 删除所有分区->保存更改
 
 
