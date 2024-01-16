@@ -26,6 +26,32 @@ excerpt_separator: "##"
 - 删除所有分区->保存更改
 - 选择分区 -> 建立ESP/MSR分区(ESP分区大小：2048 建立MSR分区：去掉) -> 保存更改<img src="/assets/img/Ubuntu/5.png" width="400px">
 ##### Vmware操作
-
+- 打开虚拟机（Vmware）
+- 创建新的虚拟机
+- <img src="/assets/img/Ubuntu/6.png" width="400px">
+- 典型
+- <img src="/assets/img/Ubuntu/7.png" width="400px">
+- 稍后安装操作系统
+- <img src="/assets/img/Ubuntu/8.png" width="400px">
+- 稍后安装操作系统
+- <img src="/assets/img/Ubuntu/9.png" width="400px">
+- 
+- <img src="/assets/img/Ubuntu/10.png" width="400px">
+- <img src="/assets/img/Ubuntu/11.png" width="400px">
+- <img src="/assets/img/Ubuntu/12.png" width="400px">
+- <img src="/assets/img/Ubuntu/13.png" width="400px">
+- <img src="/assets/img/Ubuntu/14.png" width="400px">
+- <img src="/assets/img/Ubuntu/15.png" width="400px">
+- <img src="/assets/img/Ubuntu/16.png" width="400px">
+- <img src="/assets/img/Ubuntu/17.png" width="400px">
+- <img src="/assets/img/Ubuntu/18.png" width="400px">
+- <img src="/assets/img/Ubuntu/19.png" width="400px">
+- <img src="/assets/img/Ubuntu/20.png" width="400px">
+- <img src="/assets/img/Ubuntu/21.png" width="400px">
+- <img src="/assets/img/Ubuntu/22.png" width="400px">
+- <img src="/assets/img/Ubuntu/23.png" width="400px">
+- <img src="/assets/img/Ubuntu/24.png" width="400px">
+- <img src="/assets/img/Ubuntu/25.png" width="400px">
+- <img src="/assets/img/Ubuntu/26.png" width="400px">
 
 
