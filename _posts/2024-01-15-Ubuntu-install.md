@@ -71,10 +71,17 @@ excerpt_separator: "##"
 - <img src="/assets/img/Ubuntu/26.png" width="400px">
 - 分区：
   - swap：  32gb*1024=32768mb  逻辑分区  空间起始位置  swap（交换空间）
-  - home：  400gb*1024=409600mb  逻辑分区  空间起始位置  /home
-  - 根：其余全部挂载 /（根）  逻辑分区 空间其实位置  /
+  - home：  400gb*1024=409600mb  逻辑分区  空间起始位置  EXT4日志文件系统  /home
+  - 根：其余全部挂载 /（根）  逻辑分区 空间其实位置  EXT4日志文件系统  /
+  - 安装启动引导器设备为类型efi所在的分区
 - <img src="/assets/img/Ubuntu/27.png" width="400px">
+- 点击有线的齿轮
 - <img src="/assets/img/Ubuntu/28.png" width="400px">
+- IPV4->ipv4方式(手动)
+  - 地址：192.168.1*（例如：192.168.1.34）
+  - 子网掩码：255.255.255.0
+  - 网关：192.168.1.1
+- DNS：114.114.114.114
 - <img src="/assets/img/Ubuntu/29.png" width="400px">
 
 
