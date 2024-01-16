@@ -33,25 +33,48 @@ excerpt_separator: "##"
 - <img src="/assets/img/Ubuntu/7.png" width="400px">
 - 稍后安装操作系统
 - <img src="/assets/img/Ubuntu/8.png" width="400px">
-- 稍后安装操作系统
+- Linux
 - <img src="/assets/img/Ubuntu/9.png" width="400px">
-- 
+- 选定位置
 - <img src="/assets/img/Ubuntu/10.png" width="400px">
+- 将虚拟磁盘拆分成多个文件
 - <img src="/assets/img/Ubuntu/11.png" width="400px">
+- 完成
 - <img src="/assets/img/Ubuntu/12.png" width="400px">
+- 编辑虚拟机设置
 - <img src="/assets/img/Ubuntu/13.png" width="400px">
+- 硬件->CD/DVD(SATA)->启动时连接->使用ISO映像文件（就是所下载的Ubuntu的ISO文件）
 - <img src="/assets/img/Ubuntu/14.png" width="400px">
+- 硬盘->添加
 - <img src="/assets/img/Ubuntu/15.png" width="400px">
+- 下一步
 - <img src="/assets/img/Ubuntu/16.png" width="400px">
+- SCSI
 - <img src="/assets/img/Ubuntu/17.png" width="400px">
+- 使用物理磁盘
 - <img src="/assets/img/Ubuntu/18.png" width="400px">
+- 设备选择最后一个->使用整个磁盘
 - <img src="/assets/img/Ubuntu/19.png" width="400px">
+- 完成
 - <img src="/assets/img/Ubuntu/20.png" width="400px">
+- 选项->高级->UEFI
 - <img src="/assets/img/Ubuntu/21.png" width="400px">
+- enter
 - <img src="/assets/img/Ubuntu/22.png" width="400px">
+- 选择语言
 - <img src="/assets/img/Ubuntu/23.png" width="400px">
+- enter
 - <img src="/assets/img/Ubuntu/24.png" width="400px">
+- 只选择最小安装
 - <img src="/assets/img/Ubuntu/25.png" width="400px">
+- 安装类型为其他选项
 - <img src="/assets/img/Ubuntu/26.png" width="400px">
+- 分区：
+  - swap：  32gb*1024=32768mb  逻辑分区  空间起始位置  swap（交换空间）
+  - home：  400gb*1024=409600mb  逻辑分区  空间起始位置  /home
+  - 根：其余全部挂载 /（根）  逻辑分区 空间其实位置  /
+- <img src="/assets/img/Ubuntu/27.png" width="400px">
+- <img src="/assets/img/Ubuntu/28.png" width="400px">
+- <img src="/assets/img/Ubuntu/29.png" width="400px">
 
 
