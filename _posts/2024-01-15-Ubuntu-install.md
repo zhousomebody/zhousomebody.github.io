@@ -25,5 +25,7 @@ excerpt_separator: "##"
   - 不用改变
 - 删除所有分区->保存更改
 - 选择分区 -> 建立ESP/MSR分区(ESP分区大小：2048 建立MSR分区：去掉) -> 保存更改<img src="/assets/img/Ubuntu/5.png" width="400px">
+##### Vmware操作
+
 
 
