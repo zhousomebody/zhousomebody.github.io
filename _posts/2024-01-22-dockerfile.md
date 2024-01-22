@@ -39,7 +39,9 @@ REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
 kasm_ros                 latest    9e98668a90cb   10 hours ago   10.8GB
 workspace_deluxe         1_13_0    5216a430d115   12 days ago    6.7GB
 ```
-sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p <web_port>:6901 -p <ssh_port>:22 --security-opt seccomp=unconfined -e VNC_PW=<password> -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name>  workspace_deluxe:1_13_0
+sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p <web_port>:6901 -p <ssh_port>:22 --security-opt seccomp=unconfined -
+e VNC_PW=<password> -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/<name>:/data -v /mnt/sda/data/public:/public --name <name>
+workspace_deluxe:1_13_0
 ```
 这行代码是一个示例，您可以根据需要进行定制。以下是每个参数的含义：
 
@@ -62,7 +64,8 @@ sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p 
 ##### 注释
 示例
 ```
-sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p 10336:6901 -p 7905:22 --security-opt seccomp=unconfined -e VNC_PW=test -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/test:/data -v /mnt/sda/data/public:/public --name test  kasm_ros
+sudo docker run --shm-size 32g -itd --runtime=nvidia --gpus all --privileged -p 10336:6901 -p 7905:22 --security-opt seccomp=unconfined -e
+VNC_PW=test -e NVIDIA_DRIVER_CAPABILITIES=all -v /mnt/sda/data/test:/data -v /mnt/sda/data/public:/public --name test  kasm_ros
 ```
 这个命令是用于在 Docker 中创建并运行一个名为 “test” 的容器，使用了 kasm_ros 镜像。下面是命令中的各个参数的解释：
 
