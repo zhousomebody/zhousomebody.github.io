@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: ubuntu apt-get nginx
-time: 2024年01月
+time: 2024年01月24日 星期三
 location: beijing
 pulished: ture
 excerpt_separator: "##"
