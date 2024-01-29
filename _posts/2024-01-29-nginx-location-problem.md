@@ -118,5 +118,15 @@ server {
                 try_files $uri $uri/ =404;
         }
 ```
-###### 
+###### ip+port=root
 
+root：/opt/dist
+
+http://ip:80  /     =/    opt/dist/(服务器文件的位置)
+
+root：/opt
+
+http://ip:80 /    dist/=/    opt/    dist/(服务器文件的位置)
+
+location 指令后面的路径是用来匹配请求 URL 的部分
+[nginx 配置文件](/)
