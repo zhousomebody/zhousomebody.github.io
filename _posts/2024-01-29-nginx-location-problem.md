@@ -85,6 +85,7 @@ server {
 ##### 静态部署
 
 - http://ip:80/
+
 ```
 server {
         listen 80;
@@ -102,6 +103,7 @@ server {
         }
 ```
 - http://ip:80/dist/
+
 ```
 server {
         listen 80;
