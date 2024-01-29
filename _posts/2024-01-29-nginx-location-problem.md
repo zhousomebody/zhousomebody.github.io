@@ -131,4 +131,4 @@ root：/opt
 http://ip:80 /    dist/=/    opt/    dist/(服务器文件的位置)
 
 location 指令后面的路径是用来匹配请求 URL 的部分
-[nginx 配置文件](/assets/test/nginx/default)
+[nginx 配置文件](/assets/text/nginx/default)
