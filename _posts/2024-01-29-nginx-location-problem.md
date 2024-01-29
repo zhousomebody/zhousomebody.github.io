@@ -8,7 +8,7 @@ excerpt_separator: "##"
 --- 
 
 ##### 反向代理
-- 单个端口
+- 单个
 ```
 server {
         listen 80;
@@ -27,7 +27,7 @@ server {
 }
 ```
 完成后，可以通过现在目前所属serve的ip+端口访问`http://8.130.180.210:8080 `这个8.130.180.210的8080端口
-- 多个端口
+- 多个
 ```
 server {
         listen 80;
@@ -83,4 +83,40 @@ server {
 }
 ```
 ##### 静态部署
+
+- http://ip:80/
+```
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name 8.130.180.210;
+#
+        
+#       root /var/www/example.com;
+#       index index.html;
+#
+        location / {
+                root    /opt/dist;
+                try_files $uri $uri/ =404;
+        }
+```
+- http://ip:80/dist/
+```
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name 8.130.180.210;
+#
+        
+#       root /var/www/example.com;
+#       index index.html;
+#
+        location /dist {
+                root    /opt;
+                try_files $uri $uri/ =404;
+        }
+```
+###### 
 
