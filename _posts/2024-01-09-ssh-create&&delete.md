@@ -23,6 +23,11 @@ excerpt_separator: "##"
 ```sudo docker exec -it zz /bin/bash```
 进入容器zz
 
+```
+adduser <username>
+```
+创建用户
+
 `whoia`查看当前用户名
 
  ```apt-get update```
@@ -55,7 +60,14 @@ logout 退出，
 
 断开与服务器连接 
 
-```ssh zz@124.***.***.*** -p 7905```
+##### 若是创建用户user
+
+```ssh username@124.***.***.*** -p 7905```
+远程，然后输入设置的passwd
+
+##### 若是没有创建用户user
+
+```ssh root@124.***.***.*** -p 7905```
 远程，然后输入设置的passwd
 
 上一行代码可能会报错，需要去自己的.ssh文件夹，将host删除。
