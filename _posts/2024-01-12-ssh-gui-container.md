@@ -97,10 +97,7 @@ sudo apt-get update
 ```
 sudo apt-get install vim openssh-server nano
 ```
-##### 修改默认用户密码，初始密码可以和<name>一致
-```
-passwd
-```
+
 ```
 sudo vi /etc/ssh/sshd_config
 ```
